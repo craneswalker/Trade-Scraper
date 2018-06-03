@@ -1,0 +1,19 @@
+{
+  "name": "cheerioServer",
+  "version": "0.0.1",
+  "description": "Scrape le web.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Jacob Crane",
+  "dependencies": {
+    "cheerio": "latest",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "node-fetch": "^2.1.2",
+    "nodemon": "^1.17.5",
+    "request": "latest"
+  }
+}
